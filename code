@@ -1,0 +1,56 @@
+# Project Saathi: Generative AI for Youth Mental Wellness
+
+### Team: The Fusionists | Hackathon: Gen AI Exchange Hackathon
+
+---
+
+## 💡 Project Overview
+
+[cite_start]**Project Saathi** is an empathetic and proactive Generative AI-powered wellness companion designed to support youth mental health[cite: 11]. [cite_start]It acts as an always-available, stigma-free ally, empowering young users to navigate stress, anxiety, and emotional challenges[cite: 13].
+
+[cite_start]Our solution distinguishes itself by being context-aware, using Humanized AI conversations, and providing fully personalized support, unlike generic "one-size-fits-all" apps[cite: 18].
+
+### 🎯 Problem Solved
+
+[cite_start]Traditional therapy or existing apps are often expensive, lack personalization, or offer only scripted responses[cite: 18]. Saathi solves this by providing:
+* [cite_start]**24/7, judgment-free access** to AI wellness support[cite: 18].
+* [cite_start]**Personalized mental guidance** using Gen AI to adapt to the user's emotions and personality[cite: 18].
+* [cite_start]**Proactive support** by predicting emotional surges before crises escalate[cite: 24, 35].
+
+---
+
+## 💻 Technology Stack (Powered by Google Cloud)
+
+Our prototype is built using a serverless architecture focused on the Vertex AI platform:
+
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Conversational AI Core** | **Vertex AI Gemini 1.5 Pro** | [cite_start]Empathetic, multimodal LLM for safe, natural dialogue[cite: 86]. |
+| **Emotional Intelligence** | **Vertex AI Text & Speech** | [cite_start]Detects emotional state from user text and voice input[cite: 86]. |
+| **Backend/Functions** | **Firebase Functions (Python)** | [cite_start]Securely handles all API calls to Vertex AI and database interactions[cite: 86]. |
+| **Data Storage** | **Firestore / BigQuery** | [cite_start]Secure, structured logging of interactions and mood trends[cite: 86]. |
+| **Safety & Moderation** | **Perspective API + Vertex AI Safety Filters** | [cite_start]Ensures all content is moderated for safety and compliance[cite: 86]. |
+
+---
+
+## 🚀 How to Run the Prototype
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [YOUR_REPO_LINK]
+    cd Project-Saathi-GenAI-Hackathon
+    ```
+2.  **Setup Environment:** Ensure you have the Google Cloud SDK authenticated and the Vertex AI API enabled for your project.
+3.  **Deploy Backend:** Deploy the Python code located in the `/functions` directory as a Firebase Function.
+4.  **Run Frontend:** Open the `index.html` (or equivalent file) in your browser. The application will connect to the deployed Firebase Function.
+
+**Live Prototype Link:** [PASTE YOUR LIVE PROTOTYPE LINK HERE]
+
+---
+
+## ✨ Key Features Demonstrated in Prototype
+
+[cite_start]Our simplest version includes the following working features[cite: 40, 43, 44]:
+1.  [cite_start]**Real-Time Empathetic Chat:** Natural language conversation interface powered by Gemini 1.5 Pro[cite: 43].
+2.  [cite_start]**Mood & Sentiment Detection:** Analysis of user text to infer mood and tailor the response[cite: 40].
+3.  [cite_start]**Automated Journaling:** The AI automatically logs key emotional insights and progress to the database[cite: 44, 45].
